@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汽車檢驗員 刷題系統</title>
+<style>
+  :root{
+    --primary:#2563eb; --primary-dark:#1d4ed8; --green:#16a34a; --red:#dc2626;
+    --bg:#f8fafc; --card:#ffffff; --text:#1e293b; --muted:#64748b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;
+    background:var(--bg); color:var(--text);
+  }
+  header { background:var(--primary); color:white; padding:16px 20px; text-align:center; }
+  header h1 { margin:0; font-size:20px; }
+  header p { margin:4px 0 0; font-size:13px; opacity:.9; }
+  .container { max-width:640px; margin:0 auto; padding:16px; }
+  .card { background:var(--card); border-radius:14px; padding:20px; box-shadow:0 1px 4px rgba(0,0,0,.08); margin-bottom:16px; }
+  .btn {
+    display:block; width:100%; padding:14px; margin:8px 0; border:none; border-radius:10px;
+    background:var(--primary); color:white; font-size:16px; font-weight:600; cursor:pointer;
+  }
+  .btn:active { background:var(--primary-dark); }
+  .btn.secondary { background:#e2e8f0; color:var(--text); }
+  select, input[type=number] { width:100%; padding:12px; border-radius:8px; border:1px solid #cbd5e1; font-size:16px; margin-top:6px; }
+  label { font-size:14px; color:var(--muted); display:block; margin-top:12px; }
+  .progress { font-size:13px; color:var(--muted); text-align:right; margin-bottom:8px; }
+  .qtext { font-size:17px; font-weight:600; margin-bottom:16px; line-height:1.6; }
+  .opt {
+    display:block; width:100%; text-align:left; padding:14px; margin:8px 0; border-radius:10px;
+    border:1.5px solid #cbd5e1; background:white; font-size:15px; cursor:pointer; line-height:1.5;
+  }
+  .opt:active { background:#f1f5f9; }
+  .opt.correct { border-color:var(--green); background:#f0fdf4; }
+  .opt.wrong { border-color:var(--red); background:#fef2f2; }
+  .opt.disabled { pointer-events:none; }
+  .source-tag { display:inline-block; font-size:12px; color:var(--muted); background:#f1f5f9; padding:2px 8px; border-radius:6px; margin-bottom:10px; }
+  .score-big { font-size:48px; font-weight:800; text-align:center; color:var(--primary); }
+  .score-sub { text-align:center; color:var(--muted); margin-bottom:20px; }
+  .review-item { border-left:4px solid var(--red); padding:8px 12px; margin:8px 0; background:#fef2f2; border-radius:6px; font-size:14px; }
+  .review-item.ok { border-left-color:var(--green); background:#f0fdf4; }
+  .hidden { display:none; }
+  .footer-note { text-align:center; color:var(--muted); font-size:12px; margin:20px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🚗 汽車檢驗員 刷題系統</h1>
+  <p>資料來源：交通部公路局歷屆檢考驗員試題</p>
+</header>
+
+<div class="container">
+
+  <!-- 設定畫面 -->
+  <div id="setup" class="card">
+    <div id="loadingMsg">題庫載入中...</div>
+    <div id="setupForm" class="hidden">
+      <label>本次刷題題數</label>
+      <select id="numQ">
+        <option value="10">10 題（快速練習）</option>
+        <option value="20">20 題</option>
+        <option value="50" selected>50 題（模擬正式考）</option>
+        <option value="all">全部題庫</option>
+      </select>
+      <label>作答模式</label>
+      <select id="mode">
+        <option value="instant">每題立即看答案</option>
+        <option value="exam">全部答完再看結果（模擬考模式）</option>
+      </select>
+      <button class="btn" onclick="startQuiz()">開始刷題</button>
+      <div class="footer-note" id="bankInfo"></div>
+    </div>
+  </div>
+
+  <!-- 作答畫面 -->
+  <div id="quiz" class="card hidden">
+    <div class="progress" id="progress"></div>
+    <div class="source-tag" id="sourceTag"></div>
+    <div class="qtext" id="qtext"></div>
+    <div id="options"></div>
+    <button class="btn hidden" id="nextBtn" onclick="nextQuestion()">下一題</button>
+  </div>
+
+  <!-- 結果畫面 -->
+  <div id="result" class="card hidden">
+    <div class="score-big" id="scoreBig"></div>
+    <div class="score-sub" id="scoreSub"></div>
+    <div id="reviewList"></div>
+    <button class="btn" onclick="location.reload()">再刷一次</button>
+  </div>
+
+</div>
+
+<script>
+let bank = [];
+let quizQuestions = [];
+let currentIndex = 0;
+let userAnswers = [];
+let mode = "instant";
+
+fetch("question_bank.json?_=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    bank = data.filter(q => q.answer && q.options && q.options.A && q.options.B && q.options.C && q.options.D);
+    document.getElementById("loadingMsg").classList.add("hidden");
+    document.getElementById("setupForm").classList.remove("hidden");
+    document.getElementById("bankInfo").innerText = `目前題庫共 ${bank.length} 題`;
+  })
+  .catch(err => {
+    document.getElementById("loadingMsg").innerText = "題庫載入失敗，請確認 question_bank.json 是否存在於同一資料夾。";
+    console.error(err);
+  });
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startQuiz() {
+  const numVal = document.getElementById("numQ").value;
+  mode = document.getElementById("mode").value;
+  const shuffled = shuffle(bank);
+  quizQuestions = numVal === "all" ? shuffled : shuffled.slice(0, parseInt(numVal, 10));
+  currentIndex = 0;
+  userAnswers = [];
+  document.getElementById("setup").classList.add("hidden");
+  document.getElementById("quiz").classList.remove("hidden");
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = quizQuestions[currentIndex];
+  document.getElementById("progress").innerText = `第 ${currentIndex + 1} / ${quizQuestions.length} 題`;
+  document.getElementById("sourceTag").innerText = `出處：${q.source} 年度考題`;
+  document.getElementById("qtext").innerText = q.question;
+  const optsDiv = document.getElementById("options");
+  optsDiv.innerHTML = "";
+  document.getElementById("nextBtn").classList.add("hidden");
+
+  ["A","B","C","D"].forEach(key => {
+    const btn = document.createElement("button");
+    btn.className = "opt";
+    btn.innerText = `${key}. ${q.options[key]}`;
+    btn.onclick = () => selectAnswer(key, btn);
+    optsDiv.appendChild(btn);
+  });
+}
+
+function selectAnswer(chosen, btnEl) {
+  const q = quizQuestions[currentIndex];
+  const correct = chosen === q.answer;
+  userAnswers.push({ q, chosen, correct });
+
+  const allBtns = document.querySelectorAll("#options .opt");
+  allBtns.forEach(b => b.classList.add("disabled"));
+
+  if (mode === "instant") {
+    allBtns.forEach(b => {
+      const key = b.innerText.split(".")[0].trim();
+      if (key === q.answer) b.classList.add("correct");
+      if (key === chosen && !correct) b.classList.add("wrong");
+    });
+    document.getElementById("nextBtn").classList.remove("hidden");
+  } else {
+    btnEl.style.borderColor = "var(--primary)";
+    setTimeout(nextQuestion, 200);
+  }
+}
+
+function nextQuestion() {
+  currentIndex++;
+  if (currentIndex < quizQuestions.length) {
+    renderQuestion();
+  } else {
+    showResult();
+  }
+}
+
+function showResult() {
+  document.getElementById("quiz").classList.add("hidden");
+  document.getElementById("result").classList.remove("hidden");
+  const correctCount = userAnswers.filter(a => a.correct).length;
+  const pct = Math.round((correctCount / userAnswers.length) * 100);
+  document.getElementById("scoreBig").innerText = `${pct} 分`;
+  document.getElementById("scoreSub").innerText = `答對 ${correctCount} / ${userAnswers.length} 題`;
+
+  const listDiv = document.getElementById("reviewList");
+  listDiv.innerHTML = "<h3>詳解 / 錯題檢討</h3>";
+  userAnswers.forEach((a, i) => {
+    const div = document.createElement("div");
+    div.className = "review-item" + (a.correct ? " ok" : "");
+    div.innerHTML = `
+      <b>${i+1}. ${a.q.question}</b><br>
+      你的答案：${a.chosen}　正確答案：${a.q.answer}　
+      ${a.correct ? "✅" : "❌"}<br>
+      ${"ABCD".split("").map(k => `${k}. ${a.q.options[k]}`).join("　")}
+    `;
+    listDiv.appendChild(div);
+  });
+
+  // 記錄練習歷史到本機（僅存在使用者自己的裝置上）
+  try {
+    const history = JSON.parse(localStorage.getItem("exam_history") || "[]");
+    history.push({ date: new Date().toISOString(), score: pct, total: userAnswers.length });
+    localStorage.setItem("exam_history", JSON.stringify(history.slice(-50)));
+  } catch (e) {}
+}
+</script>
+
+</body>
+</html>
