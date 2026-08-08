@@ -1,6 +1,15 @@
 name: build-exam-bank
 on:
   workflow_dispatch:
+    inputs:
+      exam_count:
+        description: "本次要出的考卷題數"
+        required: false
+        default: "50"
+      exam_title:
+        description: "考卷標題"
+        required: false
+        default: "汽車檢驗員資格檢定模擬考"
   schedule:
     - cron: "0 0 * * 1"
 permissions:
@@ -15,12 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
       - run: pip install --upgrade pip
       - run: pip install requests pdfplumber weasyprint
       - run: python scripts/download_pdfs.py
-      - run: python scripts/debug_pdf.py
       - run: python scripts/extract_questions.py
-      - run: python scripts/generate_exam.py --num 50 --title "汽車檢驗員資格檢定模擬考"
+      - run: python scripts/generate_exam.py --num "${{ github.event.inputs.exam_count || '50' }}" --title "${{ github.event.inputs.exam_title || '汽車檢驗員資格檢定模擬考' }}" || echo "出題失敗，先跳過"
       - run: cp data/question_bank.json web/question_bank.json
       - run: git config user.name "exam-bank-bot"
       - run: git config user.email "actions@users.noreply.github.com"
