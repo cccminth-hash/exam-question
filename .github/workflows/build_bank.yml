@@ -1,59 +1,33 @@
-name: 更新題庫並發布刷題網站
-
+name: build-exam-bank
 on:
-  workflow_dispatch:      # 允許手動點「Run workflow」執行
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 1"  # 每週一 UTC 00:00 (台灣時間週一08:00) 自動執行
-
+    - cron: "0 0 * * 1"
 permissions:
   contents: write
   pages: write
   id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 取出程式碼
-        uses: actions/checkout@v4
-
-      - name: 設定 Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: 安裝套件
-        run: |
-          pip install --upgrade pip
-          pip install requests pdfplumber weasyprint
-
-      - name: 下載歷屆試題PDF
-        run: python scripts/download_pdfs.py
-
-      - name: 解析成題庫JSON
-        run: python scripts/extract_questions.py
-
-      - name: 產生一份範例模擬考PDF
-        run: python scripts/generate_exam.py --num 50 --title "汽車檢驗員資格檢定模擬考"
-
-      - name: 複製題庫到網頁資料夾（給刷題網站使用）
-        run: cp data/question_bank.json web/question_bank.json
-
-      - name: 提交更新回repo
-        run: |
-          git config user.name "exam-bank-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/question_bank.json data/needs_review.json web/question_bank.json data/exams
-          git diff --cached --quiet || git commit -m "自動更新題庫 $(date +'%Y-%m-%d')"
-          git push
-
-      - name: 設定 GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: 打包網頁資料夾
-        uses: actions/upload-pages-artifact@v3
+      - run: pip install --upgrade pip
+      - run: pip install requests pdfplumber weasyprint
+      - run: python scripts/download_pdfs.py
+      - run: python scripts/extract_questions.py
+      - run: python scripts/generate_exam.py --num 50 --title "汽車檢驗員資格檢定模擬考"
+      - run: cp data/question_bank.json web/question_bank.json
+      - run: git config user.name "exam-bank-bot"
+      - run: git config user.email "actions@users.noreply.github.com"
+      - run: git add data/question_bank.json data/needs_review.json web/question_bank.json data/exams
+      - run: git commit -m "auto update" || echo "nothing to commit"
+      - run: git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: web
-
-      - name: 部署到 GitHub Pages
-        id
+      - uses: actions/deploy-pages@v4
