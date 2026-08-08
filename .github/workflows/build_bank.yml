@@ -18,6 +18,7 @@ jobs:
       - run: pip install --upgrade pip
       - run: pip install requests pdfplumber weasyprint
       - run: python scripts/download_pdfs.py
+      - run: python scripts/debug_pdf.py
       - run: python scripts/extract_questions.py
       - run: python scripts/generate_exam.py --num 50 --title "汽車檢驗員資格檢定模擬考"
       - run: cp data/question_bank.json web/question_bank.json
