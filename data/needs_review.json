@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "109-1-057",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "汽車為了因應路面的不平顛簸而影響傳動軸的長度應該裝設何 第 3 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-082",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "引擎扭力",
+      "B": "制動馬力",
+      "C": "指示馬力",
+      "D": "摩擦馬力 是指引 擎發動時在汽缸內產生之馬力，亦即由活塞行程和汽缸內壓力關 係用壓容圖(PV 線圖)計算而得之馬力，引擎轉速愈高其值將會愈 大。"
+    },
+    "answer": "C",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-084",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "四行程引擎當進汽門與排氣門均關閉，活塞由下往上死點方向移 第 2 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-094",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "內傾角",
+      "B": "外傾角",
+      "C": "後傾角",
+      "D": "前束 可使車子很平穩的 保持向正前方行駛，並使轉向後容易回至正前方向。"
+    },
+    "answer": "C",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-095",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "跳動",
+      "B": "簸動",
+      "C": "晃動",
+      "D": "擺動 是車身以通過汽車重心之 左右軸為中心而做的前後迴轉運動，當車子越過凹凸不平的路面 或緊急煞車或突然起步時所產生之震動，車子之底盤愈長愈容易 發生。 第 3 頁，共 5 頁"
+    },
+    "answer": "B",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-111",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "衝撞力與 (1)車速平方成反比 (2)車重成反比 (3)兩車衝撞開 第 1 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-120",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "一般駕駛人的平均反應時間是 (1)0.15 (2)0.25 (3)0.35",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-121",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "75 秒。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-139",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "汽車駕駛人，無駕駛執照駕車、酒醉駕車、吸食毒品或迷幻藥駕 車、行駛人行道或行經行人穿越道不依規定讓行人優先通行，因 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-147",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "汽車駕駛人，駕駛汽車行車速度，超過規定之最高時速 60 公里 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-1-157",
+    "source": "109-1",
+    "type": "multiple_choice",
+    "question": "有關考驗用車之規定，下列何者錯誤？ (1)考領機車駕駛執照之 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-2-142",
+    "source": "109-2",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "警告",
+      "B": "禁制",
+      "C": "指示",
+      "D": "輔助 標誌用以表示道路上之遵 行、禁止、限制等特殊規定，告示車輛駕駛人及行人嚴格遵守。"
+    },
+    "answer": "B",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-037",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "引擎潤滑系統，係使潤滑油能在引擎運轉機件間流動，形成油膜， 避免金屬機件因直接摩擦而燒毀。有關潤滑油應具備的條件，下 列敘述何者為非？ (1)具酸鹼性，使金屬表面不易被銹蝕 (2)耐 第 4 頁，共 8 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-051",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "有關汽車底盤懸吊系統之功用，下列敘述何者為非？ (1)支撐車 重及載重 (2)使引擎驅動力、煞車力傳輸至驅動輪，使車輛行駛 第 6 頁，共 8 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-058",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "有關汽車電系之電瓶構造，下列敘述何者為正確？ (1)正極板樁 第 7 頁，共 8 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-079",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "下列對於輪胎胎壓敘述何者正確？ (1)輪胎胎壓過高，胎面兩邊 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-089",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "柴油噴射泵調速器主要用於 (1)控制噴油量 (2)控制噴油壓力 第 3 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-103",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "所謂坑道視野是指視野的明視範圍小於 (1)40 (2)50 (3)60 第 1 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-130",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "汽車駕駛人，駕駛汽車行車速度，超過規定之最高時速 60 公里， 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-3-159",
+    "source": "109-3",
+    "type": "multiple_choice",
+    "question": "於道路緣石，或距路面邊緣 30 公分，有標繪紅色實線之路段， 係指示汽車駕駛人於該路段 (1)全日禁止停車，但得臨時停車 第 4 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-032",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "將電瓶 12V 之電壓升壓至 20KV 以上，並在適當時間分送至各缸 之火星塞，使火星塞跳出火花，並能將混合汽點燃燃燒，以推動 第 3 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-041",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "柴油引擎使用共軌高壓噴射系統，經由獨立的電控系統噴油嘴噴 入汽缸使柴油完全霧化，其噴油嘴之作動係由 (1)空氣壓差控制 第 4 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-098",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "從引擎性能曲線圖上得知最省油時之引擎狀態是在 (1)最低轉 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-125",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "汽車駕駛人無正當理由不依規定接受道路交通安全講習者，處新 臺幣 1,800 元罰鍰，經再通知依限參加講習，逾期 6 個月以上仍 第 1 頁，共 7 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-141",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "經車輛型式安全審驗之車輛，其雙軸軸組荷重每組不得超過",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-142",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "5 公噸 (2)16.5 公噸 (3)17.5 公噸 (4)18.5 公噸。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-143",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "乙類大客車係指軸距未逾 4 公尺且核定總重量逾多少公噸之大客 第 3 頁，共 7 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "109-年度-158",
+    "source": "109-年度",
+    "type": "multiple_choice",
+    "question": "高速公路及快速公路交通管制規則之敘述，下列何者正確？ (1) 同向三車道或五車道中之中間車道，稱為中間車道 (2)車道中可 第 5 頁，共 7 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-032",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "輪胎 205/60 R15 91H 規格，60 表示 (1)輪胎寬度 (2)扁平率 (3) 第 3 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-084",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "以時距法保持安全距離，小型車至少應有 (1)1.5 秒 (2)1 秒",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-085",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "5 秒 (4)2 秒 以上的跟車距離。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-133",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "車輛尺度之限制：汽車全寬不得超過 (1)2.2 (2)2.3 (3)2.4",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-134",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "5 公尺，其後輪胎外緣與車身內緣之距離，大型車不得超過 15公分，小型車不得超過10公分。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-135",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "依汽車定期檢驗之項目及基準，大貨車及拖車左右兩側之防止捲入 裝置與後方之安全防護裝置（或保險槓）合於規定。自中華民國109 年9月4日起，新登檢領照總重量逾3,500公斤至5,000公斤且全長",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "110-1-136",
+    "source": "110-1",
+    "type": "multiple_choice",
+    "question": "5 (2)6 (3)7.5 (4)7 公尺以下之小貨車，亦同。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "110-3-108",
+    "source": "110-3",
+    "type": "multiple_choice",
+    "question": "一般駕駛人的平均反應時間是 (1)0.25 (2)0.35 (3)0.55",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "110-3-143",
+    "source": "110-3",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "警告",
+      "B": "禁制",
+      "C": "指示",
+      "D": "輔助 標誌用以表示道路上之遵 行、禁止、限制等特殊規定，告示車輛駕駛人及行人嚴格遵守。"
+    },
+    "answer": "B",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "110-年度-027",
+    "source": "110-年度",
+    "type": "multiple_choice",
+    "question": "在輪胎的標示中，DOT xxx xxx 1011 表示：製造日期為 (1) 2011 第 3 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "110-年度-036",
+    "source": "110-年度",
+    "type": "multiple_choice",
+    "question": "有關汽車引擎性能，下列何者正確？ (1)指示馬力為制動馬力與 摩擦馬力之差 (2)引擎輸出扭力與制動平均有效壓力成反比 第 4 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "110-年度-060",
+    "source": "110-年度",
+    "type": "multiple_choice",
+    "question": "電流錶與電壓錶之使用，下何者正確? (1)電流錶與負荷串聯、 第 2 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "110-年度-072",
+    "source": "110-年度",
+    "type": "multiple_choice",
+    "question": "四缸四行程引擎，排氣量為2000 c.c.，若燃燒室容積為50 c.c.， 第 3 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "110-年度-098",
+    "source": "110-年度",
+    "type": "multiple_choice",
+    "question": "安全防衛駕駛要訣，行車中至少 (1)5 秒鐘 (2)7 秒鐘 (3)10 秒鐘 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "110-年度-131",
+    "source": "110-年度",
+    "type": "multiple_choice",
+    "question": "汽車不依限期參加定期檢驗或臨時檢驗者，除處汽車所有人新臺 幣 900 至 1,800 元罰鍰外，逾期 (1)4 個月 (2)5 個月 (3)6 個月 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "111-1-091",
+    "source": "111-1",
+    "type": "multiple_choice",
+    "question": "視野明視範圍角度由靜態變為動態狀況時，視力範圍角度會隨 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "111-1-137",
+    "source": "111-1",
+    "type": "multiple_choice",
+    "question": "依汽車定期檢驗之項目及基準，大貨車及拖車左右兩側之防止捲 入裝置與後方之安全防護裝置（或保險槓）應合於規定。自中華 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "111-1-149",
+    "source": "111-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "警告",
+      "B": "禁制",
+      "C": "指示",
+      "D": "輔助 標誌用以表示道路上之遵 行、禁止、限制等特殊規定，告示車輛駕駛人及行人嚴格遵守。"
+    },
+    "answer": "B",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-032",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "有關並聯式複合動力系統，在汽車負荷較大時，主要採用何種動 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-069",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "安裝於引擎汽缸蓋水套出水口附近，利用熱敏電阻的電阻值隨之 改變特性，感測冷卻水的溫度變化之裝置為 (1)大氣壓力感知器 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-080",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "柴油噴射泵調速器主要用於 (1)控制噴油量 (2)控制噴油壓力 第 3 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-099",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "下列何者為實踐駕駛道德的作法？ (1)高速起步與猛然煞車 (2)身心不適或飲酒後駕駛車輛 (3)快速到達目的地是最重要的 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-109",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "所謂反應能力是指由 (1)判斷→知覺→行動 (2)知覺→判斷→ 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-128",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "貨車必須附載隨車作業人員者，除駕駛人外，大貨車不得超過 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "111-2-146",
+    "source": "111-2",
+    "type": "multiple_choice",
+    "question": "汽車駕駛人因肇事致人重傷案件，受終身不得考領駕照處分，在 符合特定條件下，受處分人經吊銷駕照處分執行已逾 (1)6 年 第 4 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "111-3-064",
+    "source": "111-3",
+    "type": "multiple_choice",
+    "question": "電解液的比重應為 (1)1.260～1.280 (2)1.210～1.220",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "111-3-065",
+    "source": "111-3",
+    "type": "multiple_choice",
+    "question": "120～1.140 (4)1.000～1.080 之間。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "111-3-147",
+    "source": "111-3",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "警告",
+      "B": "禁制",
+      "C": "指示",
+      "D": "輔助 標誌用以促使車輛駕駛人及 行人瞭解道路上之特殊狀況、提高警覺，並準備防範應變之措施。"
+    },
+    "answer": "A",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "111-年度-120",
+    "source": "111-年度",
+    "type": "multiple_choice",
+    "question": "下列何者為汽車檢驗得委託代辦之單位 (1)汽車美容廠 (2)加油 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "111-年度-137",
+    "source": "111-年度",
+    "type": "multiple_choice",
+    "question": "自中華民國 96 年 1 月 1 日起，駕駛總重量逾 3.5 公噸之動力機械 行駛道路時，其駕駛人應領有 (1)小貨車 (2)大貨車 (3)大客車 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-061",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "空氣與汽油之理論上混合比(重量比)為 (1)10.16：1 (2)11.16：1",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-062",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "16：1 (4)19.16：1。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-089",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "以下何者不屬大客車配備輔助煞車（減速用） (1)排氣煞車 第 1 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-103",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "於快速公路發生事故時，應於事故地點後方 (1)20 (2)50 (3)60 第 2 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-114",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "道路交通管理處罰條例規定，汽車未領用有效牌照、懸掛他車號 牌或未懸掛號牌於道路停車者，除依第 12 條第 1 項規定處汽車所 有人罰鍰並禁止其行駛外，汽車並 (1)沒入 (2)吊銷其牌照 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-123",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "報廢登記之汽車，如果仍於道路行駛，除了處汽車所有人新臺幣 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-128",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "汽車後懸具有特種裝置之特種車不得超過軸距 (1)60.6% (2)65.6%",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-129",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "6% (4)67.6% ；但承載客貨部分不得超過軸距 50%。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-141",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "大型重型機車行駛快速公路，其輪胎胎紋深度任一點不得不足",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-1-142",
+    "source": "112-1",
+    "type": "multiple_choice",
+    "question": "0 (2)1.6 (3)1.8 (4)2.0 公釐。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "未分類",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-070",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "由引擎曲軸皮帶所驅動，將蒸發器送出的低壓低溫氣態冷媒，經 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-112",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "在台灣大部分地區的汽車引擎要使用溫帶型節溫器，完全開啟溫 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-121",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "一般電瓶充滿電時，電解液比重應為 (1)0.860 至 0.880",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-122",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "260 至 1.280 (3)1.560 至 1.580 (4)1.960 至 1.980。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-133",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "TCS",
+      "B": "ABS",
+      "C": "STC",
+      "D": "BAS 系統功能是在濕滑路面起步或加 速時，防止驅動輪打滑，或在摩擦係數相差很大的非對稱路面， 防止單側驅動輪打滑。"
+    },
+    "answer": "A",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-156",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "使用第一檔爬坡，其所能爬上之最大坡度，即為爬坡性能，坡度 第 3 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "112-2-192",
+    "source": "112-2",
+    "type": "multiple_choice",
+    "question": "申請考領大型重型機車駕駛執照者，除年滿 20 歲另需領有普通 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "112-3-111",
+    "source": "112-3",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "離合器",
+      "B": "傳動軸",
+      "C": "差速器",
+      "D": "驅動軸 係接於引擎與變速 箱間，可讓駕駛者依行駛需要將引擎動力結合，使引擎動力能順利傳 至變速箱，或將引擎動力分離，讓引擎能持續運轉而不熄火。"
+    },
+    "answer": "A",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "112-3-183",
+    "source": "112-3",
+    "type": "multiple_choice",
+    "question": "小型車車高不得超過全寬之 1.5 倍，其最高不得超過：",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "112-3-184",
+    "source": "112-3",
+    "type": "multiple_choice",
+    "question": "5 公尺 (2)2.85 公尺 (3)3 公尺 (4)3.5 公尺。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "112-年度-043",
+    "source": "112-年度",
+    "type": "multiple_choice",
+    "question": "以下何種狀況下，應使用黏度較大的機油 (1)高負載 (2)新引擎 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "112-年度-105",
+    "source": "112-年度",
+    "type": "multiple_choice",
+    "question": "道路交通事故肇事發生的因素，內在的因素為 (1)人 (2)車 (3) 第 1 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "112-年度-141",
+    "source": "112-年度",
+    "type": "multiple_choice",
+    "question": "下列 何者不是道路交通安全規則第 2 條所定義之特種車？ (1)消 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-1-151",
+    "source": "113-1",
+    "type": "multiple_choice",
+    "question": "停車反應距離等於車速乘以反應時間，假設反應時間為 0.75 秒，車速每小時 40 公里，反應距離為 8.32 公尺，若 車速每小時 60 公里，反應距離約為 (1)2.08 (2)4.16",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-1-152",
+    "source": "113-1",
+    "type": "multiple_choice",
+    "question": "48 (4)16.67 公尺。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-1-183",
+    "source": "113-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "使用吊註銷之牌照",
+      "B": "使用偽造、變造或矇領之牌照",
+      "C": "未 依公路法規定取得安全審驗合格證明之未領用牌照",
+      "D": "牌照吊 扣期間 車輛行駛於道路，除依規定罰鍰並禁止其行駛外，車輛 並沒入之。"
+    },
+    "answer": "C",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-1-185",
+    "source": "113-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "14 歲",
+      "B": "15 歲",
+      "C": "16 歲",
+      "D": "17 歲 以上未成年之人，未領有 駕駛執照駕駛機車者，交通勤務警察或依法令執行交通稽查任務 人員應將違規事實以書面或其他方式通知其法定代理人或監護 人。"
+    },
+    "answer": "A",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-1-221",
+    "source": "113-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "紅燈",
+      "B": "閃光紅燈",
+      "C": "閃光黃燈",
+      "D": "圓形綠燈 在無其他標 誌、標線禁制或指示下，表示准許車輛直行或左、右轉。 二、複選題：20 分（每題 2 分，全部答對該題才予以計分） （ 1.2.4 ） 1. 汽車駕駛人下列何者行為，當場不能或不宜攔截製單舉發 者，得逕行舉發？ (1)闖紅燈或平交道 (2)搶越行人穿越道 (3)酒後駕車 (4)不服指揮稽查而逃逸 。 （ 1.2.3 ） 2. 汽車（不含機車）或拖車下列何種情形應申請臨時檢驗？ (1) 車身、底盤變更 (2)引擎、電系變更 (3)因交通事故遭受重 大損壞修復後 (4)出廠 6 年以上辦理轉讓過戶 。 （ 1.3.4 ） 3. 下列臨時停車敘述何者正確？ (1)指車輛因上、下人、客， 其停止時間未滿 3 分鐘，保持立即行駛之狀態 (2)接送未滿 9 歲之兒童、行動不便之人上、下車者，臨時停車不受 3 分 鐘之限制 (3)消防車出入口 5 公尺內不得臨時停車 (4)小型 車後輪胎外側距離緣石或路面邊緣不得逾 60 公分 。 （ 2.3.4 ） 4. 下列敘述何者正確？ (1)汽車駕駛人於半年內記違規點數每 達 6 點者，吊扣駕駛執照 2 個月 (2)汽車駕駛人於 1 年內記 違規點數每達 12 點者，吊扣駕駛執照 2 個月 (3)汽車駕駛人 於 1 年內記違規點數達 6 點者，得申請自費參加道路交通安 全講習 (4)汽車依規定記違規紀錄於 3 個月內共達 3 次以上 者，吊扣其汽車牌照 1 個月 。 第 5 頁，共 6 頁"
+    },
+    "answer": "D",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-2-167",
+    "source": "113-2",
+    "type": "multiple_choice",
+    "question": "車輛交會或超越他車時，至少保持 (1)0.1 (2)0.25 (3)0.45",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-2-168",
+    "source": "113-2",
+    "type": "multiple_choice",
+    "question": "5 公尺 以上間隔，以免發生擦撞。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-3-171",
+    "source": "113-3",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "14 歲",
+      "B": "15 歲",
+      "C": "16 歲",
+      "D": "17 歲 以上未成年之人，未領 有駕駛執照駕駛機車者，交通勤務警察或依法令執行交通稽查 任務人員應將違規事實以書面或其他方式通知其法定代理人或 監護人。"
+    },
+    "answer": "A",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-4-056",
+    "source": "113-4",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "STC",
+      "B": "ABS",
+      "C": "TCS",
+      "D": "BAS 系統功能是在濕滑路面起步或加 速時，防止驅動輪打滑，或在摩擦係數相差很大的非對稱路面， 防止單側驅動輪打滑。"
+    },
+    "answer": "C",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-年度-146",
+    "source": "113-年度",
+    "type": "multiple_choice",
+    "question": "使用清潔劑清洗安全帶時，下列何者之 pH 值最佳？ (1)2.8 (2)5.2",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-年度-147",
+    "source": "113-年度",
+    "type": "multiple_choice",
+    "question": "1 (4)9.5。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "113-年度-190",
+    "source": "113-年度",
+    "type": "multiple_choice",
+    "question": "申請汽車駕駛執照考驗應具之資格，在年齡部分下列何者為非? (1)考領大型重型機車駕駛執照須年滿20歲 (2)考領職業駕駛執 第 1 頁，共 8 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-年度-206",
+    "source": "113-年度",
+    "type": "multiple_choice",
+    "question": "違反道路交通管理處罰條例之行為，自行為成立之日起；行為有 連續或繼續之狀態者，自行為終了之日起，逾 2 個月不得舉發。 但汽車肇事致人受傷或死亡案件，因肇事責任不明，已送鑑定 第 3 頁，共 8 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "113-年度-215",
+    "source": "113-年度",
+    "type": "multiple_choice",
+    "question": "依據道路交通管理處罰條例第 26 條規定，職業汽車駕駛人，不 依規定期限，參加駕駛執照審驗者，處新臺幣 300 元以上 600 元 第 5 頁，共 8 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-073",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "在動力行程時能吸收慣性動能，於進氣、壓縮、排氣三個行程時 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-084",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "下列對於充電系統注意事項之敘述，何者為非 (1)電瓶的正負極 第 3 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-142",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "一般汽車駕駛人的反射(或感識)時間約為 (1)0.1 (2)0.25",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-143",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "4 (4)0.75 秒。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-170",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "一般汽車行駛時速在 70 公里以下時，最適當的注視距離即視距， 第 4 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-181",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "汽車駕駛人因酒精濃度超過標準，經依道路交通管理處罰條例規 定吊銷駕照，其雖依規定重新考領駕駛執照，仍應申請登記配備 第 1 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-188",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "14 歲",
+      "B": "15 歲",
+      "C": "16 歲",
+      "D": "18 歲 以上未成年之人，未領有 駕駛執照駕駛機車者，交通勤務警察或依法令執行交通稽查任務 人員應將違規事實以書面或其他方式通知其法定代理人或監護 人。"
+    },
+    "answer": "A",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-189",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "自用汽車駕駛人停車時，乘客未依規定開啟或關閉車門因而肇事 第 2 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-200",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "申請汽車駕駛執照考驗路考未及格者，得於下次申請考驗時免考 第 3 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-1-211",
+    "source": "114-1",
+    "type": "multiple_choice",
+    "question": "路面邊線，用以指示路肩或路面外側邊緣之界線。其線型為白實 第 4 頁，共 6 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-2-123",
+    "source": "114-2",
+    "type": "multiple_choice",
+    "question": "一般電瓶充滿電時，電解液比重應為 (1)0.860 至 0.880",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "114-2-124",
+    "source": "114-2",
+    "type": "multiple_choice",
+    "question": "260 至 1.280 (3)1.560 至 1.580 (4)1.960 至 1.980。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理",
+    "needs_review": true
+  },
+  {
+    "id": "114-2-130",
+    "source": "114-2",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "TCS",
+      "B": "EBD",
+      "C": "ESC",
+      "D": "ABS 是利用滑動率關係，維持煞 車性能於最佳狀態。"
+    },
+    "answer": "D",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "114-3-070",
+    "source": "114-3",
+    "type": "multiple_choice",
+    "question": "四 行程柴油引擎噴射泵浦驅動齒輪之齒數是曲軸齒輪數齒之 (1)2 倍 (2)1/2 倍 (3)相同 (3)4 倍。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "114-3-185",
+    "source": "114-3",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "14 歲",
+      "B": "15 歲",
+      "C": "16 歲",
+      "D": "18 歲 以上未成年之人，未領有 駕駛執照駕駛機車者，交通勤務警察或依法令執行交通稽查任務 人員應將違規事實以書面或其他方式通知其法定代理人或監護 人。"
+    },
+    "answer": "A",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-年度-143",
+    "source": "114-年度",
+    "type": "multiple_choice",
+    "question": "一般正常人的開車反應時間約在 (1)0.15 (2)0.45 (3)0.75",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "114-年度-144",
+    "source": "114-年度",
+    "type": "multiple_choice",
+    "question": "5 秒。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "114-年度-163",
+    "source": "114-年度",
+    "type": "multiple_choice",
+    "question": "依照道路交通安全規則規定，汽車全寬不得超過 (1)2 公尺",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "114-年度-164",
+    "source": "114-年度",
+    "type": "multiple_choice",
+    "question": "5 公尺 (3)2.85 公尺 (4)3 公尺。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "115-1-168",
+    "source": "115-1",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "使用吊註銷之牌照",
+      "B": "使用偽造、變造或矇領之牌照",
+      "C": "未依 公路法規定取得安全審驗合格證明之未領用牌照",
+      "D": "牌照吊扣期 間 車輛行駛於道路，除依規定罰鍰並禁止其行駛外，車輛並沒入 之。"
+    },
+    "answer": "C",
+    "subject": "道路交通法規",
+    "needs_review": true
+  },
+  {
+    "id": "115-2-064",
+    "source": "115-2",
+    "type": "multiple_choice",
+    "question": "柴油引擎進氣行程吸入 (1)柴油 (2)二氧化碳 (3)純空氣 第 2 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "115-2-069",
+    "source": "115-2",
+    "type": "multiple_choice",
+    "question": "四行程柴油引擎噴射泵浦驅動齒輪之齒數是曲軸齒輪數齒之 (1)2 倍 (2)1/2 倍 (3)相同 (3)4 倍。",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "115-2-075",
+    "source": "115-2",
+    "type": "multiple_choice",
+    "question": "車輛轉彎時內前輪之轉向角度與外前輪轉向角度之差稱為轉向 時前展，可使車輛轉彎順利，並可 (1)減少輪胎磨損 (2)增加 第 3 頁，共 4 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車構造原理概論",
+    "needs_review": true
+  },
+  {
+    "id": "115-2-119",
+    "source": "115-2",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "TCS",
+      "B": "EBD",
+      "C": "ESC",
+      "D": "ABS 是利用滑動率關係，維持煞車性 能於最佳狀態。"
+    },
+    "answer": "D",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "115-2-124",
+    "source": "115-2",
+    "type": "multiple_choice",
+    "question": "針對車輛行車事故鑑定會之鑑定有異議時，得於收受鑑定意見書 第 1 頁，共 5 頁",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "subject": "汽車駕駛理論",
+    "needs_review": true
+  },
+  {
+    "id": "115-年度-178",
+    "source": "115-年度",
+    "type": "multiple_choice",
+    "question": "",
+    "options": {
+      "A": "14 歲",
+      "B": "15 歲",
+      "C": "16 歲",
+      "D": "18 歲 以上未成年之人，未領有 駕駛執照駕駛機車者，交通勤務警察或依法令執行交通稽查任務 人員應將違規事實以書面或其他方式通知其法定代理人或監護 人。"
+    },
+    "answer": "A",
+    "subject": "道路交通法規",
+    "needs_review": true
+  }
+]
